@@ -1,1 +1,1 @@
-Apenas execute o index em um navegador insira o numero e click em enviar e o resultado irá aparecer.
+Apenas coloque o index dentro de um servidor pode ser local como xampp ou wamp(dentro da pasta htdocs) ou em outro servidor e chame a url index.php , insira o numero e click em enviar e o resultado irá aparecer.
