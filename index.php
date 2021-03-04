@@ -12,10 +12,12 @@ $y = 0;
 $z = 0;
 $o = 0;
 $numero = $numero - 1;
+if(isset($_POST['numero'])){
 while ($numero != 0){
 
     if($numero % 3 == 0){
          $x = $numero;
+         
          $y = $y + $x;
     }
     if($numero % 5 == 0){
@@ -24,6 +26,7 @@ while ($numero != 0){
     }
     
     $numero--;
+}
 }
 $o = $o + $y;
 
@@ -45,7 +48,7 @@ $o = $o + $y;
 <input type="number" name="numero">
 <button type="submit" class="btn btn-primary">Enviar</button>
 <br>
-<h3>O resultado e : <?php  echo $o;?></h3>
+<h3>O resultado e : <?php  echo $o ?></h3>
 </form>
 </div>
 
